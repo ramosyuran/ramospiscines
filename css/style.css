@@ -58,6 +58,13 @@ nav a:hover, #act{
   background: #f2f2f2;
 }
 
+#cont1{
+  border-left: 1px #353535 solid;
+  background: #c6c9bd;
+  color: white;;
+  padding: 0.5em;
+}
+
 #cont:hover{
   background: #c6c9bd;
   color: white;;
@@ -76,7 +83,7 @@ nav a:hover, #act{
   width: 79%;
 }
 
-.pool{
+.pool, .contact p, .contact h2{
   text-align: center;
 }
 
@@ -102,15 +109,35 @@ nav a:hover, #act{
   margin: 2em 0;
 }
 
-.pool h2{
+.pool h2, .contact h2{
   border-bottom: 1px solid #c6c9bd;
   line-height: 0.1em;
   margin: 0 9em 2em 9em;
 }
 
-.pool h2 span{
+.pool h2 span, .contact h2 span{
     background:#fff;
     padding: 0 3em;
+}
+
+input, textarea{
+  width: 40%;
+  background: #f2f2f2;
+  border: 0;
+  padding: 0.8em;
+  margin: 0.5em auto;
+}
+
+.contact button{
+  padding: 0.4em;
+  border: 0;
+  color: #f2f2f2;
+  background: #353535;
+  margi
+}
+
+.contact button:hover{
+  color: red;
 }
 
 footer{
