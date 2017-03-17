@@ -128,20 +128,25 @@ input, textarea{
   margin: 0.5em auto;
 }
 
+textarea{
+  margin: 2em auto;
+}
+
 .contact button{
-  padding: 0.4em;
+  padding: 0.5em;
   border: 0;
   color: #f2f2f2;
   background: #353535;
-  margi
+  margin: 1em 0;
 }
 
 .contact button:hover{
-  color: red;
+  background: #c6c9bd;
+  color: #353535;
 }
 
 footer{
-  margin: 4em 0 0 0;
+  margin: 2em 0 0 0;
   text-align: center;
   border-top: 1px solid #c6c9bd;
 }
