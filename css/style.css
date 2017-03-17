@@ -1,5 +1,6 @@
 body{
   font-family: arial, serif;
+  color: #353535;
   margin: 0;
 }
 
@@ -43,7 +44,7 @@ nav li{
 }
 
 nav a{
-  color: black;
+  color: #353535;
   text-decoration: none;
 }
 
@@ -52,11 +53,62 @@ nav a:hover, #act{
 }
 
 #cont{
-  border-left: 1px black solid;
+  border-left: 1px #353535 solid;
   padding: 0.5em;
+  background: #f2f2f2;
 }
 
 #cont:hover{
   background: #c6c9bd;
   color: white;;
+}
+
+.home aside, .home section{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.home aside{
+  width: 20%;
+}
+
+.home section{
+  width: 79%;
+}
+
+.pool{
+  text-align: center;
+}
+
+.pool img{
+  width: 100%;
+}
+
+.pool figure{
+  width: 100%;
+  margin: 0;
+}
+
+.block p{
+  background: #f2f2f2;
+  padding: 0.8em;
+  margin: 0;
+}
+
+.block{
+  width: 33%;
+  height: 200px;
+  display: inline-block;
+  margin: 2em 0;
+}
+
+.pool h2{
+  border-bottom: 1px solid #c6c9bd;
+  line-height: 0.1em;
+  margin: 0 9em 2em 9em;
+}
+
+.pool h2 span{
+    background:#fff;
+    padding: 0 3em;
 }
