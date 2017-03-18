@@ -1,6 +1,6 @@
 body{
   font-family: arial, serif;
-  color: #353535;
+  color: #4f4f4f;
   margin: 0;
 }
 
@@ -43,8 +43,8 @@ nav li{
   margin: 1em auto;
 }
 
-nav a{
-  color: #353535;
+a{
+  color: #4f4f4f;
   text-decoration: none;
 }
 
@@ -53,13 +53,13 @@ nav a:hover, #act{
 }
 
 #cont{
-  border-left: 1px #353535 solid;
+  border-left: 1px #4f4f4f solid;
   padding: 0.5em;
   background: #f2f2f2;
 }
 
 #cont1{
-  border-left: 1px #353535 solid;
+  border-left: 1px #4f4f4f solid;
   background: #c6c9bd;
   color: white;;
   padding: 0.5em;
@@ -81,11 +81,6 @@ nav a:hover, #act{
 
 .home section{
   width: 79%;
-}
-
-.home a{
-  text-decoration: none;
-  color: black;
 }
 
 .pool, .contact p, h2{
@@ -181,7 +176,7 @@ h2{
 }
 
 h2 span{
-    background:#fff;
+    background: white;
     padding: 0 4em;
 }
 
@@ -205,13 +200,13 @@ textarea{
   padding: 0.5em;
   border: 0;
   color: #f2f2f2;
-  background: #353535;
+  background: #4f4f4f;
   margin: 1em 0;
 }
 
 .contact button:hover{
   background: #c6c9bd;
-  color: #353535;
+  color: #4f4f4f;
 }
 
 table, th, td {
