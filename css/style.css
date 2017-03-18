@@ -133,6 +133,10 @@ nav a:hover, #act{
   line-height: 2em;
 }
 
+.piscine img:hover{
+  opacity: 0.9;
+}
+
 .block p{
   background: #f2f2f2;
   padding: 0.8em;
@@ -149,6 +153,28 @@ nav a:hover, #act{
   display: inline-block;
   margin: 2em 0;
 }
+
+.block figure{
+  overflow: hidden;
+}
+
+.block img{
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.block img:hover{
+  transform:scale(1.25);
+ -ms-transform:scale(1.25); /* IE 9 */
+ -moz-transform:scale(1.25); /* Firefox */
+ -webkit-transform:scale(1.25); /* Safari and Chrome */
+ -o-transform:scale(1.25);
+}
+
+
 
 .pool h2, .contact h2{
   border-bottom: 1px solid #c6c9bd;
@@ -197,6 +223,8 @@ textarea{
   background: #c6c9bd;
   color: #353535;
 }
+
+/*footer*/
 
 footer{
   margin: 2em 0 0 0;
