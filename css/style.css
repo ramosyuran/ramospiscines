@@ -88,7 +88,7 @@ nav a:hover, #act{
   color: black;
 }
 
-.pool, .contact p, .contact h2, .piscine h2{
+.pool, .contact p, h2{
   text-align: center;
 }
 
@@ -174,20 +174,18 @@ nav a:hover, #act{
  -o-transform:scale(1.25);
 }
 
-
-
-.pool h2, .contact h2{
+h2{
   border-bottom: 1px solid #c6c9bd;
   line-height: 0.1em;
   margin: 0 9em 2em 9em;
 }
 
-.pool h2 span, .contact h2 span{
+h2 span{
     background:#fff;
-    padding: 0 3em;
+    padding: 0 4em;
 }
 
-.piscine h2{
+.piscine h3{
   text-align: left;
 }
 
