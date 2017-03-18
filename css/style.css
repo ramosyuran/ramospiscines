@@ -216,6 +216,12 @@ textarea{
   color: #353535;
 }
 
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #c6c9bd;
+  padding: 1em;
+}
+
 /*footer*/
 
 footer{
