@@ -88,17 +88,34 @@ nav a:hover, #act{
   color: black;
 }
 
-.pool, .contact p, .contact h2{
+.pool, .contact p, .contact h2, .piscine h2{
   text-align: center;
 }
 
-.pool img{
+.pool img, .piscine img, .piscine, .pool figure{
   width: 100%;
 }
 
 .pool figure{
-  width: 100%;
   margin: 0;
+}
+
+.piscine figure{
+  width: 70%;
+}
+
+.coute, .piscine figure{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.coute p{
+  line-height: 2em;
+}
+
+.piscine p{
+  text-align: justify;
+  line-height: 2em;
 }
 
 .block p{
@@ -114,13 +131,13 @@ nav a:hover, #act{
   margin: 2em 0;
 }
 
-.pool h2, .contact h2{
+.pool h2, .contact h2, .piscine h2{
   border-bottom: 1px solid #c6c9bd;
   line-height: 0.1em;
   margin: 0 9em 2em 9em;
 }
 
-.pool h2 span, .contact h2 span{
+.pool h2 span, .contact h2 span, .piscine h2 span{
     background:#fff;
     padding: 0 3em;
 }
