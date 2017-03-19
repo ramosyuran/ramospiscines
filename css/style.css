@@ -53,22 +53,24 @@ nav a:hover, #act{
   color: #d1b242;
 }
 
-#cont{
-  border-left: 1px #353535 solid;
-  padding: 0.5em;
+.cont:hover{
+  background: #c6c9bd;
+  /*color: blue; pa corrige cor*/
+}
+
+.cont{
   background: #f2f2f2;
 }
 
 #cont1{
-  border-left: 1px #353535 solid;
   background: #c6c9bd;
-  color: white;;
-  padding: 0.5em;
+  color: white;
 }
 
-#cont:hover{
-  background: #c6c9bd;
-  color: white;;
+.cont, #cont1{
+  margin: 5em 0;
+  padding: 0.5em;
+  border-left: 1px #353535 solid;
 }
 
 .home aside, .home section{
