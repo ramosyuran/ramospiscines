@@ -1,7 +1,8 @@
 body{
-  font-family: arial, serif;
-  color: #4f4f4f;
+  font-family: "Open Sans", sans-serif;
+  color: #353535;
   margin: 0;
+  height: 100%;
 }
 
 /*header*/
@@ -44,7 +45,7 @@ nav li{
 }
 
 a{
-  color: #4f4f4f;
+  color: #353535;
   text-decoration: none;
 }
 
@@ -53,13 +54,13 @@ nav a:hover, #act{
 }
 
 #cont{
-  border-left: 1px #4f4f4f solid;
+  border-left: 1px #353535 solid;
   padding: 0.5em;
   background: #f2f2f2;
 }
 
 #cont1{
-  border-left: 1px #4f4f4f solid;
+  border-left: 1px #353535 solid;
   background: #c6c9bd;
   color: white;;
   padding: 0.5em;
@@ -71,17 +72,30 @@ nav a:hover, #act{
 }
 
 .home aside, .home section{
-  display: inline-block;
+  /*display: inline-block;*/
   vertical-align: top;
 }
 
+/*GLOBAL*/
+
 .home aside{
   width: 20%;
+  height: auto;
+  position: fixed;
+  left: 0;
 }
 
 .home section{
   width: 79%;
+  position: absolute;
+  right: 0;
+  height: auto;
+  padding-bottom: 55px;
 }
+
+/*.home p{
+  margin-right: 3em;
+}*/
 
 .pool, .contact p, h2{
   text-align: center;
@@ -153,7 +167,7 @@ nav a:hover, #act{
   overflow: hidden;
 }
 
-.block img{
+.block img, .piscine img{
   -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -206,7 +220,7 @@ textarea{
 
 .contact button:hover{
   background: #c6c9bd;
-  color: #4f4f4f;
+  color: #353535;
 }
 
 table, th, td {
@@ -218,7 +232,16 @@ table, th, td {
 /*footer*/
 
 footer{
-  margin: 2em 0 0 0;
+  margin: 5em 0 0 0;
   text-align: center;
-  border-top: 1px solid #c6c9bd;
+  height: 50px;
+  width: 99%;
+  /*border-top: 1px solid #c6c9bd;*/
+  position: absolute;
+  /*background: black;*/
+  padding: 0.1em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*margin: 0;*/
 }
