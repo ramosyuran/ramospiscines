@@ -255,8 +255,8 @@ footer img{
   width: 30px;
 }
 
-footer a img{
-  margin: 0.5em 1em;
+footer a img, .pool{
+  margin: 0.5em;
 }
 
 h1{
