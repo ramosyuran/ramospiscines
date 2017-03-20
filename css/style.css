@@ -102,7 +102,7 @@ nav a:hover, #act{
   text-align: justify;
 }
 
-.pool, .contact p, h2{
+.pool, #center, h2{
   text-align: center;
 }
 
@@ -215,7 +215,7 @@ textarea{
   border: 0;
   color: #f2f2f2;
   background: #4f4f4f;
-  margin: 1em 0;
+  margin: 2em 0;
 }
 
 .contact button:hover{
@@ -231,6 +231,14 @@ table, th, td {
 
 .backg, .coute span{
   background: #d1b242;
+}
+
+form, #telmail{
+  border-bottom: 1px #c6c9bd solid;
+}
+
+#telmail p, iframe{
+  margin: 1.5em 0;
 }
 
 /*footer*/
