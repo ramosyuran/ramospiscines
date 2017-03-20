@@ -33,49 +33,7 @@ header section{
 
 h1{
   background: #d1b242;
-  color: white;
   padding: 0.5em;
-}
-
-/*section home*/
-
-nav li{
-  list-style: none;
-  margin: 1em auto;
-}
-
-a{
-  color: #353535;
-  text-decoration: none;
-}
-
-nav a:hover, #act{
-  color: #d1b242;
-}
-
-.cont:hover{
-  background: #c6c9bd;
-  /*color: blue; pa corrige cor*/
-}
-
-.cont{
-  background: #f2f2f2;
-}
-
-#cont1{
-  background: #c6c9bd;
-  color: white;
-}
-
-.cont, #cont1{
-  margin: 5em 0;
-  padding: 0.5em;
-  border-left: 1px #353535 solid;
-}
-
-.home aside, .home section{
-  /*display: inline-block;*/
-  vertical-align: top;
 }
 
 /*GLOBAL*/
@@ -95,9 +53,55 @@ nav a:hover, #act{
   padding-bottom: 55px;
 }
 
-/*.home p{
+.home aside, .home section{
+  /*display: inline-block;*/
+  vertical-align: top;
+}
+
+/*aside*/
+
+nav li{
+  list-style: none;
+  margin: 1em auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.cont:hover, #cont1, h1{
+  color: white;
+}
+
+.space:hover, #cont1{
+  background: #c6c9bd;
+}
+
+.space{
+  background: #f2f2f2;
+}
+
+.space, #cont1{
+  margin: 5em 0;
+  padding: 0.5em;
+  border-left: 1px #353535 solid;
+}
+
+#cont1 span:hover, a{
+  color: #353535;
+}
+
+nav a:hover, #act{
+  color: #d1b242;
+}
+
+/*section home*/
+
+.justify{
   margin-right: 3em;
-}*/
+  text-align: justify;
+  line-height: 2em;
+}
 
 .pool, .contact p, h2{
   text-align: center;
@@ -137,11 +141,6 @@ nav a:hover, #act{
 
 .coute a{
   text-decoration: underline;
-}
-
-.piscine p{
-  text-align: justify;
-  line-height: 2em;
 }
 
 .piscine img:hover{
@@ -230,18 +229,15 @@ textarea{
 table, th, td {
   border-collapse: collapse;
   border: 1px solid #c6c9bd;
-  padding: 1em;
+  padding: 0.9em;
 }
 
 /*footer*/
-
-footer p{
-  text-align: center;
-}
 
 footer{
   margin: 3em 0 0 0;
   height: 50px;
   width: 99%;
   position: absolute;
+  text-align: center;
 }
