@@ -106,7 +106,7 @@ nav a:hover, #act{
   text-align: center;
 }
 
-.pool img, .piscine img, .piscine, .pool figure{
+.block img, .piscineimg img, .pool figure{
   width: 100%;
 }
 
@@ -114,12 +114,12 @@ nav a:hover, #act{
   margin: 0;
 }
 
-.piscine figure{
+.piscineimg{
   width: 70%;
   margin: auto auto 4em 0;
 }
 
-.coute, .piscine figure{
+.coute, .piscineimg{
   display: inline-block;
   vertical-align: middle;
 }
@@ -249,4 +249,12 @@ footer{
   width: 99%;
   position: absolute;
   text-align: center;
+}
+
+footer img{
+  width: 40px;
+}
+
+footer a{
+  margin: auto 1em;
 }
