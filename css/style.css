@@ -43,6 +43,7 @@ h1{
   height: auto;
   position: fixed;
   left: 0;
+  letter-spacing: 0.1em;
 }
 
 .home section{
@@ -54,7 +55,6 @@ h1{
 }
 
 .home aside, .home section{
-  /*display: inline-block;*/
   vertical-align: top;
 }
 
@@ -100,7 +100,6 @@ nav a:hover, #act{
 .justify{
   margin-right: 3em;
   text-align: justify;
-  line-height: 2em;
 }
 
 .pool, .contact p, h2{
@@ -117,8 +116,7 @@ nav a:hover, #act{
 
 .piscine figure{
   width: 70%;
-  margin-bottom: 4em;
-  margin-left: 0;
+  margin: auto auto 4em 0;
 }
 
 .coute, .piscine figure{
@@ -131,15 +129,14 @@ nav a:hover, #act{
 }
 
 .coute span{
-  background: #d1b242;
   padding: 0.5em;
 }
 
-.coute p{
+.coute p, .justify{
   line-height: 2em;
 }
 
-.coute a{
+.coute a, table a:hover{
   text-decoration: underline;
 }
 
@@ -230,6 +227,10 @@ table, th, td {
   border-collapse: collapse;
   border: 1px solid #c6c9bd;
   padding: 0.9em;
+}
+
+.backg, .coute span{
+  background: #d1b242;
 }
 
 /*footer*/
